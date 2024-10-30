@@ -1,24 +1,9 @@
-# README
+# TestGuru
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Платформа тестирования, позволяет легко создавать тесты и управлять ими. Включает в себя аутентификацию пользователей и базовое разграничение прав доступа.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Сущности
+* Пользователь (Администратор, Ученик)
+* Вопрос (Тип вопроса: текст, картинка, выбор одного из набора, выбор нескольких; верный ответ; Кол-во баллов за верный ответ)
+* Тест (Набор вопросов; время на выполнение теста)
+* Ответы (Набор ответов данных пользователем на тест)
